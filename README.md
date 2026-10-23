@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/profile-banner.svg" alt="Raj Jha — AI safety, edge intelligence, and human-centered systems" width="100%" />
+  <img src="assets/profile-banner.svg" alt="Raj Jha — AI safety, counter-drone systems, and edge intelligence" width="100%" />
 </p>
 
 <p align="center">
@@ -12,14 +12,22 @@
 
 COO at [@mth](https://github.com/mth) · Mathematics & Computing undergrad · Independent researcher
 
-I’m interested in building intelligent systems that stay useful in the real world: close to the edge, attentive to people, and designed with safety in mind.
+I’m interested in building intelligent systems that are useful in the real world: close to the edge, attentive to people, and designed with safety in mind.
 
-### Current orbit
+### Current work & interests
 
-- **Cognitive-assistive wearables** — interfaces that help people notice, understand, and act
-- **Edge intelligence** — capable systems that work where the data and decisions happen
-- **AI safety** — learning how to make increasingly capable systems more reliable and aligned
-- **Flight controls** — exploring the boundary between autonomy, control, and human judgment
+- **AI safety** — Working through the [ARENA course](https://learn.arena.education/), a hands-on programme in technical AI safety, and implementing and testing the ideas as I learn.
+- **Counter-drone systems** — Part of a startup working on counter-drone approaches. This work is confidential, so there are no public details or demos to share yet.
+- **Cognitive-assistive wearables** — Exploring interfaces that help people notice, understand, and act.
+- **Edge intelligence** — Building interest in capable systems that work close to where data and decisions happen.
+- **Flight controls** — Exploring the boundary between autonomy, control, and human judgment.
+
+### Toolbox · learning through ARENA
+
+- **Deep learning:** Python, PyTorch, `einops`, `einsum`
+- **Interpretability:** [TransformerLens](https://transformerlensorg.github.io/TransformerLens/), [nnsight](https://nnsight.net/)
+- **Experiments & evaluations:** [Weights & Biases](https://wandb.ai/site), [Inspect AI](https://inspect.aisi.org.uk/)
+- **Workflow:** Google Colab, VS Code, Jupyter notebooks
 
 ### How I like to build
 
