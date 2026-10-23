@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/profile-banner.svg" alt="Raj Jha — AI safety, counter-drone systems, and edge intelligence" width="100%" />
+  <img src="assets/profile-banner.svg" alt="Raj Jha — AI safety, assistive wearables, counter-drone systems, and edge intelligence" width="100%" />
 </p>
 
 <p align="center">
