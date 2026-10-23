@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Raj Jha — 0xr4j</title>
+  <desc id="desc">AI safety, edge intelligence, and human-centered systems</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="0.56" stop-color="#13172d"/>
+      <stop offset="1" stop-color="#101d25"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#74f0c0"/>
+      <stop offset="1" stop-color="#9c8cff"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#b7c9db" stroke-opacity=".08" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glow"><stop stop-color="#74f0c0" stop-opacity=".22"/><stop offset="1" stop-color="#74f0c0" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1200" height="360" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="24" fill="url(#grid)"/>
+  <circle cx="1010" cy="85" r="320" fill="url(#glow)"/>
+  <path d="M812 0h388v360H925c44-70 74-151 0-233C888 86 850 39 812 0Z" fill="#0b1020" fill-opacity=".3"/>
+  <path d="M68 74v212" stroke="url(#accent)" stroke-width="4" stroke-linecap="round"/>
+  <text x="100" y="142" fill="#f4f7fb" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="700" letter-spacing="-1">RAJ JHA</text>
+  <text x="103" y="188" fill="#74f0c0" font-family="Consolas, monospace" font-size="20" letter-spacing="2">0XR4J  /  RESEARCHER  /  BUILDER</text>
+  <text x="103" y="242" fill="#c2ccda" font-family="Segoe UI, Arial, sans-serif" font-size="22">AI safety · edge intelligence · human-centered systems</text>
+  <text x="103" y="280" fill="#8694a8" font-family="Consolas, monospace" font-size="14" letter-spacing="1">SOFTWARE × HARDWARE × HUMAN JUDGMENT</text>
+  <g transform="translate(1020 180)" fill="none" stroke="url(#accent)" stroke-width="2">
+    <circle r="72" stroke-opacity=".24"/><circle r="50" stroke-opacity=".48"/><circle r="28" stroke-opacity=".8"/>
+    <path d="M-90 0H90M0-90V90M-64-64L64 64M64-64L-64 64" stroke-opacity=".3"/>
+    <circle r="7" fill="#74f0c0" stroke="none"/>
+    <circle cx="50" cy="0" r="4" fill="#9c8cff" stroke="none"/>
+    <circle cx="-35" cy="-35" r="4" fill="#74f0c0" stroke="none"/>
+  </g>
+</svg>
