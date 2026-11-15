@@ -27,7 +27,7 @@
     <text x="24" y="202" class="l" style="animation-delay:3.2s"><tspan class="k">systems:</tspan>   <tspan class="y">"edge intelligence, flight controls"</tspan></text>
 
     <g class="l" style="animation-delay:3.8s"><text x="24" y="238" class="t" style="animation-delay:3.8s"><tspan class="p">❯</tspan> <tspan class="c">ls ~/shipped</tspan></text></g>
-    <text x="24" y="262" class="l" style="animation-delay:4.8s"><tspan class="p">mars-walk-planner/</tspan>  <tspan class="p">rakshasutra/</tspan>  <tspan class="p">dukaan-ai/</tspan>  <tspan class="k">ayawarden/</tspan>  <tspan class="k">zerobleed/</tspan>  <tspan class="k">ooda-aegis/</tspan></text>
+    <text x="24" y="262" class="l" style="animation-delay:4.8s"><tspan class="p">mars-walk-planner/</tspan>  <tspan class="p">rakshasutra/</tspan>  <tspan class="p">dukaan-ai/</tspan>  <tspan class="k">ayawarden/</tspan>  <tspan class="k">zerobleed/</tspan>  <tspan class="r">counter-drone/</tspan><tspan class="o"> (locked)</tspan></text>
 
     <g class="l" style="animation-delay:5.4s"><text x="24" y="298" class="t" style="animation-delay:5.4s"><tspan class="p">❯</tspan> <tspan class="c">echo $MOTTO</tspan></text></g>
     <text x="24" y="322" class="l r" style="animation-delay:6.4s">curious by default · safety in the loop · always building</text>

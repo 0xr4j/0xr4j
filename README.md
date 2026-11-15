@@ -77,17 +77,15 @@ A **need-to-know context broker** for agentic decisions — Zetaris + Meterless 
 </td>
 <td width="50%" valign="top">
 
-### ⚔️ [ooda-aegis](https://github.com/0xr4j/ooda-aegis)
-An **autonomous defense agent** on Meta's open-weight models — closes the loop without a human, and without data leaving the network.
+### 🔒 counter-drone · `[REDACTED]`
+Part of a startup building **counter-drone systems**. The work is confidential, so there are no public repos, details or demos yet.
 
-<a href="https://nikhil8557.github.io/ooda-aegis/"><img src="https://img.shields.io/badge/▶%20live%20demo-74f0c0?style=flat-square&labelColor=0b1020"></a>
-<img src="https://img.shields.io/badge/OODA-loop-ff6b8b?style=flat-square&labelColor=0b1020">
+<img src="https://img.shields.io/badge/status-classified-ff6b8b?style=flat-square&labelColor=0b1020">
+<img src="https://img.shields.io/badge/domain-counter--UAS-7cc4ff?style=flat-square&labelColor=0b1020">
 
 </td>
 </tr>
 </table>
-
-<sub>🔒 Also: counter-drone work at a startup — confidential, so no public details yet.</sub>
 
 ## 🧰 Toolbox
 
