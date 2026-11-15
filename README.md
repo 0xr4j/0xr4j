@@ -106,18 +106,15 @@ An **autonomous defense agent** on Meta's open-weight models — closes the loop
 ## ⚙️ How I build
 
 ```text
- people ──▶ make it legible ──▶ test in the real world ──▶ widen the safety margin ──┐
-   ▲                                                                                 │
-   └─────────────────────────────────── repeat ◀─────────────────────────────────────┘
+ people ─▶ legible ─▶ field-tested ─▶ safer ─┐
+   ▲                                         │
+   └──────────────── repeat ◀────────────────┘
 ```
 
 ## 📈 Activity
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=0xr4j&theme=tokyonight&hide_border=true&background=0B1020&ring=74F0C0&fire=B38CFF&currStreakLabel=74F0C0&sideLabels=7CC4FF&dates=8B9BC0&currStreakNum=E6EDFF&sideNums=E6EDFF" alt="GitHub streak" width="49%" />
-</p>
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=0xr4j&bg_color=0b1020&color=e6edff&line=74f0c0&point=b38cff&area=true&area_color=74f0c0&hide_border=true&radius=12" alt="Contribution graph" width="100%" />
+  <img src="https://streak-stats.demolab.com?user=0xr4j&theme=tokyonight&hide_border=true&background=0B1020&ring=74F0C0&fire=B38CFF&currStreakLabel=74F0C0&sideLabels=7CC4FF&dates=8B9BC0&currStreakNum=E6EDFF&sideNums=E6EDFF" alt="GitHub streak" width="60%" />
 </p>
 
 <p align="center">
