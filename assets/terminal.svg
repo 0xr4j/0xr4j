@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" width="900" height="360" role="img" aria-label="Terminal: whoami">
+  <defs>
+    <style>
+      .m{font-family:'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace;font-size:15px}
+      .p{fill:#74f0c0}.c{fill:#e6edff}.o{fill:#8b9bc0}.k{fill:#b38cff}.y{fill:#ffd479}.r{fill:#ff6b8b}
+      .l{opacity:0;animation:show .01s forwards}
+      .t{clip-path:inset(0 100% 0 0);animation:type .9s steps(28) forwards}
+      @keyframes show{to{opacity:1}}
+      @keyframes type{to{clip-path:inset(0 0 0 0)}}
+      .cur{animation:blink 1s steps(1) infinite}
+      @keyframes blink{50%{opacity:0}}
+    </style>
+  </defs>
+  <rect width="900" height="360" rx="14" fill="#0b1020"/>
+  <rect width="900" height="38" rx="14" fill="#141a2e"/>
+  <rect y="24" width="900" height="14" fill="#141a2e"/>
+  <circle cx="24" cy="19" r="6" fill="#ff5f57"/><circle cx="44" cy="19" r="6" fill="#febc2e"/><circle cx="64" cy="19" r="6" fill="#28c840"/>
+  <text x="450" y="24" text-anchor="middle" class="m o" font-size="13">raj@0xr4j: ~</text>
+
+  <g class="m">
+    <g class="l" style="animation-delay:.2s"><text x="24" y="74" class="t" style="animation-delay:.2s"><tspan class="p">❯</tspan> <tspan class="c">whoami</tspan></text></g>
+    <text x="24" y="98" class="l o" style="animation-delay:1.2s">Raj Jha · COO @mth · Mathematics &amp; Computing · independent researcher</text>
+
+    <g class="l" style="animation-delay:1.8s"><text x="24" y="134" class="t" style="animation-delay:1.8s"><tspan class="p">❯</tspan> <tspan class="c">cat interests.yaml</tspan></text></g>
+    <text x="24" y="158" class="l" style="animation-delay:2.8s"><tspan class="k">safety:</tspan>    <tspan class="y">"interpretability, evals — learning via ARENA"</tspan></text>
+    <text x="24" y="180" class="l" style="animation-delay:3.0s"><tspan class="k">hardware:</tspan>  <tspan class="y">"assistive wearables, counter-drone (confidential)"</tspan></text>
+    <text x="24" y="202" class="l" style="animation-delay:3.2s"><tspan class="k">systems:</tspan>   <tspan class="y">"edge intelligence, flight controls"</tspan></text>
+
+    <g class="l" style="animation-delay:3.8s"><text x="24" y="238" class="t" style="animation-delay:3.8s"><tspan class="p">❯</tspan> <tspan class="c">ls ~/shipped</tspan></text></g>
+    <text x="24" y="262" class="l" style="animation-delay:4.8s"><tspan class="p">mars-walk-planner/</tspan>  <tspan class="p">rakshasutra/</tspan>  <tspan class="p">dukaan-ai/</tspan>  <tspan class="k">ayawarden/</tspan>  <tspan class="k">zerobleed/</tspan>  <tspan class="k">ooda-aegis/</tspan></text>
+
+    <g class="l" style="animation-delay:5.4s"><text x="24" y="298" class="t" style="animation-delay:5.4s"><tspan class="p">❯</tspan> <tspan class="c">echo $MOTTO</tspan></text></g>
+    <text x="24" y="322" class="l r" style="animation-delay:6.4s">curious by default · safety in the loop · always building</text>
+    <g class="l" style="animation-delay:6.6s"><rect class="cur" x="24" y="334" width="9" height="16" fill="#74f0c0"/></g>
+  </g>
+</svg>
