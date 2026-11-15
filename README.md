@@ -57,22 +57,22 @@ Tiny Aya that **ignores instructions hidden in its tools**, across 8 languages. 
 </td>
 <td width="50%" valign="top">
 
-### 🗣️ [dukaan-ai](https://github.com/0xr4j/dukaan-ai)
-Shopkeepers run their whole business by **talking to their phone** — snap a product, speak an invoice, hear today's sales. An AI agent on PayPal's Agent Toolkit.
+### 🔐 [zerobleed](https://github.com/0xr4j/zerobleed)
+A **need-to-know context broker** for agentic decisions — Zetaris + Meterless Markovian + Nightshift + NVIDIA Nemotron.
 
-<img src="https://img.shields.io/badge/agent-voice--first-74f0c0?style=flat-square&labelColor=0b1020">
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
+<a href="https://copyninja07-07.github.io/zerobleed/"><img src="https://img.shields.io/badge/▶%20live%20demo-74f0c0?style=flat-square&labelColor=0b1020"></a>
+<img src="https://img.shields.io/badge/Open%20Agent%20Hackathon-T03-b38cff?style=flat-square&labelColor=0b1020">
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 🔐 [zerobleed](https://github.com/0xr4j/zerobleed)
-A **need-to-know context broker** for agentic decisions — Zetaris + Meterless Markovian + Nightshift + NVIDIA Nemotron.
+### 🗣️ [dukaan-ai](https://github.com/0xr4j/dukaan-ai)
+Shopkeepers run their whole business by **talking to their phone** — snap a product, speak an invoice, hear today's sales. An AI agent on PayPal's Agent Toolkit.
 
-<a href="https://copyninja07-07.github.io/zerobleed/"><img src="https://img.shields.io/badge/▶%20live%20demo-74f0c0?style=flat-square&labelColor=0b1020"></a>
-<img src="https://img.shields.io/badge/Open%20Agent%20Hackathon-T03-b38cff?style=flat-square&labelColor=0b1020">
+<img src="https://img.shields.io/badge/agent-voice--first-74f0c0?style=flat-square&labelColor=0b1020">
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
 
 </td>
 <td width="50%" valign="top">
