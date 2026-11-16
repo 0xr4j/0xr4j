@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" width="1200" height="120" role="img" aria-label="End of transmission — curious by default, safety in the loop, always building">
+  <defs>
+    <linearGradient id="w" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#74f0c0" stop-opacity="0"/><stop offset="0.2" stop-color="#74f0c0"/>
+      <stop offset="0.5" stop-color="#7cc4ff"/><stop offset="0.8" stop-color="#b38cff"/><stop offset="1" stop-color="#b38cff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="c"><rect width="1200" height="120"/></clipPath>
+    <style>
+      .m{font-family:'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace}
+      .a{animation:a 4s linear infinite}
+      .b{animation:a 7s linear infinite reverse}
+      @keyframes a{from{transform:translateX(0)}to{transform:translateX(-240px)}}
+      .k{animation:k 1s steps(1) infinite}
+      @keyframes k{50%{opacity:0}}
+    </style>
+    <path id="wave" d="M0 40q30 -34 60 0t60 0t60 0t60 0t60 0t60 0t60 0t60 0t60 0t60 0t60 0t60 0t60 0t60 0t60 0t60 0t60 0t60 0t60 0t60 0t60 0t60 0t60 0t60 0t60 0"/>
+  </defs>
+  <g clip-path="url(#c)">
+    <mask id="fade"><rect width="1200" height="120" fill="url(#w)"/></mask>
+    <g mask="url(#fade)" fill="none">
+      <use class="a" href="#wave" stroke="#7cc4ff" stroke-width="2"/>
+      <use class="b" href="#wave" stroke="#b38cff" stroke-width="1.5" stroke-opacity="0.6" y="4"/>
+    </g>
+    <text x="600" y="92" text-anchor="middle" class="m" font-size="14" fill="#8b9bc0" letter-spacing="3">curious by default · safety in the loop · always building</text>
+    <text x="600" y="114" text-anchor="middle" class="m" font-size="11" fill="#74f0c0" letter-spacing="4">END OF TRANSMISSION <tspan class="k">█</tspan></text>
+  </g>
+</svg>

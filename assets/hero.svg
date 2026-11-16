@@ -1,9 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-label="Raj Jha — 0xr4j">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 470" width="1200" height="470" role="img" aria-label="Raj Jha — 0xr4j">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#05060f"/>
-      <stop offset="0.55" stop-color="#0a0f24"/>
-      <stop offset="1" stop-color="#140a26"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#04050d"/>
+      <stop offset="0.62" stop-color="#0a0f26"/>
+      <stop offset="0.68" stop-color="#1a1140"/>
+      <stop offset="1" stop-color="#07060f"/>
     </linearGradient>
     <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#74f0c0"/>
@@ -11,124 +12,149 @@
       <stop offset="1" stop-color="#b38cff"/>
       <animateTransform attributeName="gradientTransform" type="translate" values="-0.4 0;0.4 0;-0.4 0" dur="8s" repeatCount="indefinite"/>
     </linearGradient>
-    <radialGradient id="glow" cx="0.78" cy="0.5" r="0.45">
-      <stop offset="0" stop-color="#74f0c0" stop-opacity="0.18"/>
-      <stop offset="1" stop-color="#74f0c0" stop-opacity="0"/>
+    <linearGradient id="horizon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b38cff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ff6bd6" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#b38cff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="hglow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ff6bd6" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#ff6bd6" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="glow2" cx="0.12" cy="0.1" r="0.5">
-      <stop offset="0" stop-color="#9c8cff" stop-opacity="0.16"/>
-      <stop offset="1" stop-color="#9c8cff" stop-opacity="0"/>
-    </radialGradient>
+    <linearGradient id="floorFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a0f26" stop-opacity="1"/>
+      <stop offset="0.35" stop-color="#0a0f26" stop-opacity="0"/>
+    </linearGradient>
     <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#74f0c0" stop-opacity="0"/>
-      <stop offset="1" stop-color="#74f0c0" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#74f0c0" stop-opacity="0.5"/>
     </linearGradient>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" fill="none" stroke="#7cc4ff" stroke-opacity="0.06" stroke-width="1"/>
-    </pattern>
-    <clipPath id="radarClip"><circle cx="930" cy="210" r="160"/></clipPath>
+    <clipPath id="radarClip"><circle cx="960" cy="172" r="128"/></clipPath>
+    <clipPath id="card"><rect width="1200" height="470" rx="18"/></clipPath>
     <style>
       .mono{font-family:'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace}
       .sans{font-family:'Segoe UI','Inter',Helvetica,Arial,sans-serif}
       .tw{animation:tw 3s ease-in-out infinite}
       @keyframes tw{0%,100%{opacity:.15}50%{opacity:1}}
-      .g1{animation:g1 6s steps(1) infinite}
-      .g2{animation:g2 6s steps(1) infinite}
-      @keyframes g1{0%,92%,100%{transform:translate(0,0);opacity:0}93%{transform:translate(-6px,2px);opacity:.8}95%{transform:translate(4px,-2px);opacity:.8}97%{opacity:0}}
-      @keyframes g2{0%,92%,100%{transform:translate(0,0);opacity:0}93%{transform:translate(6px,-1px);opacity:.8}96%{transform:translate(-3px,2px);opacity:.8}98%{opacity:0}}
-      .blip{animation:blip 4s ease-out infinite;transform-box:fill-box;transform-origin:center}
-      @keyframes blip{0%{opacity:0;transform:scale(.4)}8%{opacity:1;transform:scale(1.4)}40%{opacity:.6;transform:scale(1)}100%{opacity:0;transform:scale(1)}}
-      .ring{animation:ring 4s ease-out infinite;transform-box:fill-box;transform-origin:center}
-      @keyframes ring{0%{opacity:.9;transform:scale(.2)}100%{opacity:0;transform:scale(2.6)}}
+      .g1{animation:g1 5s steps(1) infinite}
+      .g2{animation:g2 5s steps(1) infinite}
+      @keyframes g1{0%,90%,100%{transform:translate(0,0);opacity:0}91%{transform:translate(-7px,2px);opacity:.85}94%{transform:translate(5px,-2px);opacity:.85}97%{opacity:0}}
+      @keyframes g2{0%,90%,100%{transform:translate(0,0);opacity:0}91%{transform:translate(7px,-1px);opacity:.85}95%{transform:translate(-4px,2px);opacity:.85}98%{opacity:0}}
       .role{opacity:0;animation:role 16s infinite}
       @keyframes role{0%{opacity:0;transform:translateY(8px)}3%,22%{opacity:1;transform:translateY(0)}25%,100%{opacity:0;transform:translateY(-8px)}}
-      .cur{animation:cur 1s steps(1) infinite}
-      @keyframes cur{50%{opacity:0}}
-      .scan{animation:scan 7s linear infinite}
-      @keyframes scan{0%{transform:translateY(-20px)}100%{transform:translateY(440px)}}
+      .blink{animation:blink 1s steps(1) infinite}
+      @keyframes blink{50%{opacity:0}}
+      .pulse{animation:pulse 1.4s ease-in-out infinite}
+      @keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}
+      .scan{animation:scan 6s linear infinite}
+      @keyframes scan{0%{transform:translateY(-20px)}100%{transform:translateY(490px)}}
       .fadein{opacity:0;animation:fade 1.2s ease-out forwards}
       @keyframes fade{to{opacity:1}}
     </style>
   </defs>
 
-  <rect width="1200" height="420" rx="18" fill="url(#bg)"/>
-  <rect width="1200" height="420" rx="18" fill="url(#grid)"/>
-  <rect width="1200" height="420" rx="18" fill="url(#glow)"/>
-  <rect width="1200" height="420" rx="18" fill="url(#glow2)"/>
+  <g clip-path="url(#card)">
+    <rect width="1200" height="470" fill="url(#bg)"/>
 
-  <!-- stars -->
-  <g fill="#cfe8ff">
-    <circle class="tw" cx="60" cy="40" r="1.2"/>
-    <circle class="tw" cx="210" cy="90" r="1" style="animation-delay:.6s"/>
-    <circle class="tw" cx="340" cy="30" r="1.4" style="animation-delay:1.2s"/>
-    <circle class="tw" cx="480" cy="70" r="1" style="animation-delay:1.8s"/>
-    <circle class="tw" cx="590" cy="22" r="1.2" style="animation-delay:.3s"/>
-    <circle class="tw" cx="700" cy="380" r="1" style="animation-delay:2.1s"/>
-    <circle class="tw" cx="120" cy="370" r="1.3" style="animation-delay:1.5s"/>
-    <circle class="tw" cx="420" cy="395" r="1" style="animation-delay:.9s"/>
-    <circle class="tw" cx="660" cy="120" r="1.1" style="animation-delay:2.4s"/>
-    <circle class="tw" cx="1150" cy="40" r="1.2" style="animation-delay:.4s"/>
-    <circle class="tw" cx="1160" cy="380" r="1" style="animation-delay:1.1s"/>
-    <circle class="tw" cx="740" cy="60" r="1" style="animation-delay:2.7s"/>
-  </g>
-
-  <!-- radar -->
-  <g>
-    <circle cx="930" cy="210" r="160" fill="#06121a" fill-opacity="0.6" stroke="#74f0c0" stroke-opacity="0.35"/>
-    <g fill="none" stroke="#74f0c0" stroke-opacity="0.18">
-      <circle cx="930" cy="210" r="120"/>
-      <circle cx="930" cy="210" r="80"/>
-      <circle cx="930" cy="210" r="40"/>
-      <path d="M770 210H1090M930 50V370"/>
-      <path d="M817 97L1043 323M1043 97L817 323" stroke-opacity="0.08"/>
+    <!-- stars -->
+    <g fill="#cfe8ff">
+      <circle class="tw" cx="60" cy="40" r="1.2"/>
+      <circle class="tw" cx="210" cy="24" r="1" style="animation-delay:.6s"/>
+      <circle class="tw" cx="340" cy="52" r="1.4" style="animation-delay:1.2s"/>
+      <circle class="tw" cx="480" cy="30" r="1" style="animation-delay:1.8s"/>
+      <circle class="tw" cx="590" cy="64" r="1.2" style="animation-delay:.3s"/>
+      <circle class="tw" cx="700" cy="28" r="1" style="animation-delay:2.1s"/>
+      <circle class="tw" cx="660" cy="250" r="1.1" style="animation-delay:2.4s"/>
+      <circle class="tw" cx="1150" cy="40" r="1.2" style="animation-delay:.4s"/>
+      <circle class="tw" cx="1130" cy="280" r="1" style="animation-delay:1.1s"/>
+      <circle class="tw" cx="760" cy="110" r="1" style="animation-delay:2.7s"/>
+      <circle class="tw" cx="40" cy="290" r="1" style="animation-delay:1.6s"/>
     </g>
-    <g clip-path="url(#radarClip)">
+
+    <!-- perspective grid floor -->
+    <ellipse cx="600" cy="320" rx="520" ry="46" fill="url(#hglow)"/>
+    <g stroke="#b38cff" stroke-opacity="0.32" stroke-width="1.2">
+      <path d="M600 320L-1100 470M600 320L-930 470M600 320L-760 470M600 320L-590 470M600 320L-420 470M600 320L-250 470M600 320L-80 470M600 320L90 470M600 320L260 470M600 320L430 470M600 320L600 470M600 320L770 470M600 320L940 470M600 320L1110 470M600 320L1280 470M600 320L1450 470M600 320L1620 470M600 320L1790 470M600 320L1960 470M600 320L2130 470M600 320L2300 470"/>
+    </g>
+    <g fill="#b38cff">
+      <rect x="0" width="1200" height="1" y="320" opacity=".12"><animate attributeName="y" from="320" to="323" dur="1.1s" repeatCount="indefinite"/></rect>
+      <rect x="0" width="1200" height="1" y="323" opacity=".18"><animate attributeName="y" from="323" to="328" dur="1.1s" repeatCount="indefinite"/></rect>
+      <rect x="0" width="1200" height="1.1" y="328" opacity=".24"><animate attributeName="y" from="328" to="336" dur="1.1s" repeatCount="indefinite"/></rect>
+      <rect x="0" width="1200" height="1.2" y="336" opacity=".3"><animate attributeName="y" from="336" to="348" dur="1.1s" repeatCount="indefinite"/></rect>
+      <rect x="0" width="1200" height="1.3" y="348" opacity=".36"><animate attributeName="y" from="348" to="366" dur="1.1s" repeatCount="indefinite"/></rect>
+      <rect x="0" width="1200" height="1.5" y="366" opacity=".42"><animate attributeName="y" from="366" to="392" dur="1.1s" repeatCount="indefinite"/></rect>
+      <rect x="0" width="1200" height="1.7" y="392" opacity=".48"><animate attributeName="y" from="392" to="428" dur="1.1s" repeatCount="indefinite"/></rect>
+      <rect x="0" width="1200" height="2" y="428" opacity=".54"><animate attributeName="y" from="428" to="472" dur="1.1s" repeatCount="indefinite"/></rect>
+    </g>
+    <rect y="320" width="1200" height="150" fill="url(#floorFade)"/>
+    <rect y="319" width="1200" height="2" fill="url(#horizon)"/>
+
+    <!-- radar -->
+    <g>
+      <circle cx="960" cy="172" r="128" fill="#06121a" fill-opacity="0.7" stroke="#74f0c0" stroke-opacity="0.4"/>
+      <g fill="none" stroke="#74f0c0" stroke-opacity="0.18">
+        <circle cx="960" cy="172" r="96"/><circle cx="960" cy="172" r="64"/><circle cx="960" cy="172" r="32"/>
+        <path d="M832 172H1088M960 44V300"/>
+      </g>
+      <g clip-path="url(#radarClip)">
+        <g>
+          <path d="M960 172L1088 172A128 128 0 0 0 1050.5 81.5Z" fill="url(#sweep)"/>
+          <line x1="960" y1="172" x2="1088" y2="172" stroke="#74f0c0" stroke-width="2"/>
+          <animateTransform attributeName="transform" type="rotate" from="0 960 172" to="-360 960 172" dur="4s" repeatCount="indefinite"/>
+        </g>
+      </g>
+      <circle cx="960" cy="172" r="3.5" fill="#74f0c0"/>
+      <circle class="pulse" cx="905" cy="230" r="3" fill="#74f0c0"/>
+      <circle class="pulse" cx="1020" cy="245" r="2.5" fill="#74f0c0" style="animation-delay:.7s"/>
+
+      <!-- tracked drone -->
       <g>
-        <path d="M930 210L1090 210A160 160 0 0 0 1043 97Z" fill="url(#sweep)"/>
-        <line x1="930" y1="210" x2="1090" y2="210" stroke="#74f0c0" stroke-width="2"/>
-        <animateTransform attributeName="transform" type="rotate" from="0 930 210" to="-360 930 210" dur="4s" repeatCount="indefinite"/>
+        <animateMotion dur="14s" repeatCount="indefinite" path="M900 120C980 80 1050 150 1010 215S880 250 880 185S870 135 900 120Z"/>
+        <g fill="#e6edff">
+          <rect x="-6" y="-2" width="12" height="4" rx="2"/>
+          <rect x="-13" y="-0.8" width="26" height="1.6" rx=".8"/>
+          <rect x="-17" y="-3.6" width="9" height="1.3" rx=".6"/>
+          <rect x="8" y="-3.6" width="9" height="1.3" rx=".6"/>
+        </g>
+        <g class="pulse" fill="none" stroke="#ff6b8b" stroke-width="1.6">
+          <path d="M-24 -14V-20H-18M18 -20H24V-14M24 12V18H18M-18 18H-24V12"/>
+        </g>
+        <text x="30" y="-12" class="mono" font-size="10" fill="#ff6b8b">TRK-01 · LOCK</text>
+      </g>
+      <text x="960" y="318" text-anchor="middle" class="mono" font-size="11" fill="#74f0c0" fill-opacity="0.65" letter-spacing="3" style="paint-order:stroke" stroke="#0a0f26" stroke-width="4">SENSE · DECIDE · SAFELY</text>
+    </g>
+
+    <!-- HUD chrome -->
+    <g fill="none" stroke="#7cc4ff" stroke-opacity="0.45" stroke-width="2">
+      <path d="M22 50V22H50M1150 22H1178V50M1178 420V448H1150M50 448H22V420"/>
+    </g>
+    <g class="mono" font-size="11" letter-spacing="1.5">
+      <circle class="blink" cx="1048" cy="30" r="3.5" fill="#74f0c0"/>
+      <text x="1058" y="34" fill="#74f0c0">SYS ONLINE</text>
+      <text x="64" y="444" fill="#8b9bc0">MODE: BUILD   SAFETY: IN-THE-LOOP   LINK: github.com/0xr4j</text>
+    </g>
+
+    <!-- text block -->
+    <g class="fadein">
+      <text x="70" y="92" class="mono" font-size="16" fill="#74f0c0" letter-spacing="2">&gt; hello, world_ i'm</text>
+      <g class="sans" font-size="96" font-weight="800" letter-spacing="-2">
+        <text class="g1" x="68" y="188" fill="#ff3d81" fill-opacity="0.75">RAJ JHA</text>
+        <text class="g2" x="68" y="188" fill="#3de1ff" fill-opacity="0.75">RAJ JHA</text>
+        <text x="68" y="188" fill="url(#name)">RAJ JHA</text>
+      </g>
+      <rect x="72" y="206" width="88" height="28" rx="6" fill="#74f0c0" fill-opacity="0.12" stroke="#74f0c0" stroke-opacity="0.5"/>
+      <text x="116" y="225" text-anchor="middle" class="mono" font-size="14" fill="#74f0c0">0xr4j</text>
+      <text x="176" y="225" class="mono" font-size="14" fill="#8b9bc0">COO @mth · MnC undergrad · independent researcher</text>
+      <g class="mono" font-size="21" fill="#e6edff">
+        <text x="70" y="270" fill="#8b9bc0">$ focus --now</text>
+        <text class="role" x="70" y="302" style="animation-delay:0s"><tspan fill="#b38cff">→</tspan> technical AI safety <tspan fill="#8b9bc0">(ARENA)</tspan></text>
+        <text class="role" x="70" y="302" style="animation-delay:4s"><tspan fill="#b38cff">→</tspan> counter-drone systems</text>
+        <text class="role" x="70" y="302" style="animation-delay:8s"><tspan fill="#b38cff">→</tspan> assistive wearables</text>
+        <text class="role" x="70" y="302" style="animation-delay:12s"><tspan fill="#b38cff">→</tspan> edge intelligence</text>
       </g>
     </g>
-    <!-- blips -->
-    <g fill="#74f0c0">
-      <circle class="blip" cx="1010" cy="150" r="4" style="animation-delay:.35s"/>
-      <circle class="blip" cx="880" cy="120" r="3.5" style="animation-delay:1.1s"/>
-      <circle class="blip" cx="850" cy="270" r="4" style="animation-delay:2.2s"/>
-      <circle class="blip" cx="1000" cy="300" r="3" style="animation-delay:3.3s"/>
-    </g>
-    <circle class="ring" cx="1010" cy="150" r="8" fill="none" stroke="#ff6b8b" stroke-width="1.5" style="animation-delay:.35s"/>
-    <circle cx="930" cy="210" r="4" fill="#74f0c0"/>
-    <text x="930" y="395" text-anchor="middle" class="mono" font-size="12" fill="#74f0c0" fill-opacity="0.6" letter-spacing="3">EDGE · SENSE · DECIDE · SAFELY</text>
+
+    <rect class="scan" x="0" y="0" width="1200" height="2" fill="#74f0c0" fill-opacity="0.09"/>
   </g>
-
-  <!-- left text block -->
-  <g class="fadein">
-    <text x="70" y="92" class="mono" font-size="16" fill="#74f0c0" letter-spacing="2">&gt; hello, world_ i'm</text>
-
-    <g class="sans" font-size="92" font-weight="800" letter-spacing="-2">
-      <text class="g1" x="70" y="190" fill="#ff3d81" fill-opacity="0.7">RAJ JHA</text>
-      <text class="g2" x="70" y="190" fill="#3de1ff" fill-opacity="0.7">RAJ JHA</text>
-      <text x="70" y="190" fill="url(#name)">RAJ JHA</text>
-    </g>
-
-    <g>
-      <rect x="72" y="208" width="88" height="28" rx="6" fill="#74f0c0" fill-opacity="0.12" stroke="#74f0c0" stroke-opacity="0.5"/>
-      <text x="116" y="227" text-anchor="middle" class="mono" font-size="14" fill="#74f0c0">0xr4j</text>
-      <text x="176" y="227" class="mono" font-size="14" fill="#8b9bc0">COO @mth · MnC undergrad · independent researcher</text>
-    </g>
-
-    <!-- rotating roles -->
-    <g class="mono" font-size="22" fill="#e6edff">
-      <text x="70" y="290" fill="#8b9bc0">$ focus --now</text>
-      <text class="role" x="70" y="325" style="animation-delay:0s"><tspan fill="#b38cff">→</tspan> technical AI safety <tspan fill="#8b9bc0">(ARENA)</tspan></text>
-      <text class="role" x="70" y="325" style="animation-delay:4s"><tspan fill="#b38cff">→</tspan> counter-drone systems</text>
-      <text class="role" x="70" y="325" style="animation-delay:8s"><tspan fill="#b38cff">→</tspan> assistive wearables</text>
-      <text class="role" x="70" y="325" style="animation-delay:12s"><tspan fill="#b38cff">→</tspan> edge intelligence</text>
-    </g>
-    <rect class="cur" x="70" y="345" width="12" height="3" fill="#74f0c0"/>
-  </g>
-
-  <!-- scanline -->
-  <rect class="scan" x="0" y="0" width="1200" height="2" fill="#74f0c0" fill-opacity="0.08"/>
-  <rect width="1199" height="419" x="0.5" y="0.5" rx="18" fill="none" stroke="#7cc4ff" stroke-opacity="0.15"/>
+  <rect width="1199" height="469" x="0.5" y="0.5" rx="18" fill="none" stroke="#7cc4ff" stroke-opacity="0.18"/>
 </svg>
