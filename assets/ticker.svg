@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 46" width="1200" height="46" role="img" aria-label="Making intelligent systems earn trust. Research, prototype, field test, repeat. Software, hardware, safety in the loop.">
+  <defs>
+    <pattern id="hz" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)">
+      <rect width="8" height="16" fill="#74f0c0"/>
+      <animateTransform attributeName="patternTransform" type="translate" from="0 0" to="16 0" dur="1.2s" repeatCount="indefinite" additive="sum"/>
+    </pattern>
+    <linearGradient id="fadeL" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0b1020"/><stop offset="1" stop-color="#0b1020" stop-opacity="0"/></linearGradient>
+    <linearGradient id="fadeR" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0b1020" stop-opacity="0"/><stop offset="1" stop-color="#0b1020"/></linearGradient>
+    <clipPath id="win"><rect x="62" y="0" width="1076" height="46"/></clipPath>
+    <clipPath id="box"><rect width="1200" height="46" rx="10"/></clipPath>
+  </defs>
+  <g clip-path="url(#box)">
+    <rect width="1200" height="46" fill="#0b1020"/>
+    <rect width="52" height="46" fill="url(#hz)" opacity="0.85"/>
+    <rect x="1148" width="52" height="46" fill="url(#hz)" opacity="0.85"/>
+    <g clip-path="url(#win)">
+      <g font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="15" font-weight="600" fill="#74f0c0" letter-spacing="1">
+        <text x="80" y="29" textLength="1400" lengthAdjust="spacing">MAKING INTELLIGENT SYSTEMS EARN TRUST <tspan fill="#b38cff">///</tspan> RESEARCH → PROTOTYPE → FIELD TEST → REPEAT <tspan fill="#b38cff">///</tspan> SOFTWARE × HARDWARE × SAFETY IN THE LOOP <tspan fill="#b38cff">///</tspan></text>
+        <text x="1520" y="29" textLength="1400" lengthAdjust="spacing">MAKING INTELLIGENT SYSTEMS EARN TRUST <tspan fill="#b38cff">///</tspan> RESEARCH → PROTOTYPE → FIELD TEST → REPEAT <tspan fill="#b38cff">///</tspan> SOFTWARE × HARDWARE × SAFETY IN THE LOOP <tspan fill="#b38cff">///</tspan></text>
+        <animateTransform attributeName="transform" type="translate" from="0 0" to="-1440 0" dur="24s" repeatCount="indefinite"/>
+      </g>
+    </g>
+    <rect x="52" width="70" height="46" fill="url(#fadeL)"/>
+    <rect x="1078" width="70" height="46" fill="url(#fadeR)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="45" rx="10" fill="none" stroke="#74f0c0" stroke-opacity="0.3"/>
+</svg>

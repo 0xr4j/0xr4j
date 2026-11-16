@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/0xr4j"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=900&color=74F0C0&center=true&vCenter=true&width=720&lines=Making+intelligent+systems+earn+trust.;Research+%E2%86%92+prototype+%E2%86%92+field+test+%E2%86%92+repeat.;Software+%C3%97+hardware+%C3%97+safety+in+the+loop." alt="Typing intro" /></a>
+  <img src="./assets/ticker.svg" alt="Making intelligent systems earn trust · research → prototype → field test → repeat · software × hardware × safety in the loop" width="100%" />
 </p>
 
 <p align="center">
@@ -43,19 +43,25 @@
   <a href="https://copyninja07-07.github.io/zerobleed/"><img src="https://img.shields.io/badge/▶%20ZeroBleed-live%20demo-b38cff?style=flat-square&labelColor=0b1020"></a>
 </p>
 
-<img src="./assets/hdr-toolbox.svg" alt="03 · Toolbox" width="100%" />
+<img src="./assets/hdr-proof.svg" alt="03 · Proof" width="100%" />
+
+<p align="center">
+  <img src="./assets/proof.svg" alt="Results. AyaWarden (team result): prompt-injection success 41% to 0% across 8 languages, correct decisions 38% to 98%, refusal behaviour unchanged. Rakshasutra: 104 tests passing; in simulation a separation is flagged in 105 s and an SOS raised in 0.3 s; nothing measured yet. Mars walk planner: GO / CAUTION / NO-GO safety engine, 4 science stops, 1 h walk-back reserve. ZeroBleed (team of 3): 8 of 8 Markovian conformance checks." width="100%" />
+</p>
+
+<img src="./assets/hdr-toolbox.svg" alt="04 · Toolbox" width="100%" />
 
 <p align="center">
   <img src="./assets/orbit.svg" alt="Toolbox in orbit. Interpretability and evals: PyTorch, TransformerLens, nnsight, Inspect AI. Languages and tools: Python, TypeScript, Leaflet, einops, Weights & Biases. Edge and hardware: BLE, LoRaWAN, ESP32-S3, C99." width="100%" />
 </p>
 
-<img src="./assets/hdr-loop.svg" alt="04 · How I build" width="100%" />
+<img src="./assets/hdr-loop.svg" alt="05 · How I build" width="100%" />
 
 <p align="center">
   <img src="./assets/loop.svg" alt="Start with people → make it legible → test in the real world → widen the safety margin → repeat" width="100%" />
 </p>
 
-<img src="./assets/hdr-signal.svg" alt="05 · Signal" width="100%" />
+<img src="./assets/hdr-signal.svg" alt="06 · Signal" width="100%" />
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=0xr4j&theme=tokyonight&hide_border=true&background=0B1020&ring=74F0C0&fire=B38CFF&currStreakLabel=74F0C0&sideLabels=7CC4FF&dates=8B9BC0&currStreakNum=E6EDFF&sideNums=E6EDFF" alt="GitHub streak" width="60%" />
